@@ -89,7 +89,7 @@
                     <a data-box="collapse"><i class="icofont-caret-up"></i></a>
                     <a data-box="close" data-hide="bounceOutRight">×</a>
                 </div>
-                <span>服务器状态监控</span>
+                <span>状态监控</span>
             </div>
             <div class="box-body" style="display: block;">
                 <div id="chartsSix" style="min-width:380px;height:400px"></div>

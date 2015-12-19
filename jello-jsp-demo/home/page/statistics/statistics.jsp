@@ -5,7 +5,7 @@
 
     <fis:block name="block_body">
       <!-- content -->
-      <div class="content">
+      <div class="content" style="margin-top:0;">
           <fis:widget name="home:widget/header/header.jsp" data="统计分析"/>
           <!-- content-body -->
           <div class="content-body">

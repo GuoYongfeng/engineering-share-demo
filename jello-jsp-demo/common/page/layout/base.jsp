@@ -41,17 +41,12 @@
             </div>
         </div>
         <![endif]-->
-        <div id="wrapper" class="wrapper">
-          <fis:block name="block_header">
-              <fis:widget name="common:widget/header/header.jsp"/>
-          </fis:block>
-          <fis:block name="block_body"></fis:block>
-          <fis:block name="block_footer">
-              <fis:widget name="common:widget/footer/footer.jsp"/>
-          </fis:block>
-        </div>
 
-        <fis:widget name="common:widget/nav/nav.jsp"/>
+        <fis:block name="block_header"></fis:block>
+
+        <fis:block name="block_body"></fis:block>
+        
+        <fis:block name="block_footer"></fis:block>
 
         <!--body里面的js-->
         <fis:block name="block_body_js">
