@@ -43,53 +43,14 @@ fis.config.merge({
     },
 
     // 资源编译
-    roadmap:{
-        path:[
-            //jsp文件不调整部署结构
-            {
-                reg : '**.jsp',
-                // release: '/WEB-INF/views/$&'
-            },
-            //WEB-INF目录下的文件不调整部署结构
-            {
-                reg : 'WEB-INF/**' 
-            },
-            //map.json发布到map目录下
-            {
-                reg : 'map.json',   
-                release : 'conf/$&'
-            },
-            /**
-             * widget目录下的js文件组件化包装
-             * 发布到/static/目录下
-             */
-            {
-                reg : 'widget/**.js',   
-                isMod : true,           
-                release : '/static/$&'  
-            },
-            {
-                reg : '**.md',
-                release : false
-            },
-
-            //配置useSprite表示reg匹配到的css需要进行图片合并
-            {
-                reg: '**.css',
-                useSprite: true,
-                release : '/static/$&'
-            },
-            
-            // 其他文件发布到/static/目录下
-            {
-                reg : '**',             
-                release : '/static/$&'  
-            }
-        ],
-        ext : {
-            //less后缀的文件将输出为css后缀
-            //并且在parser之后的其他处理流程中被当做css文件处理
-            less : 'css'
+    deploy : {
+        locals : {
+            from : '/static',
+            to : '../../',
+        },
+        localt : {
+            from : '/WEB-INF',
+            to : '../../'
         }
     },
 

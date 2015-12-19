@@ -1,0 +1,6 @@
+<input type="button" id="btn" value="请戳我">
+#script()
+	require(['widget/header/header.js'], function( test ){
+		test();
+	});		
+#end

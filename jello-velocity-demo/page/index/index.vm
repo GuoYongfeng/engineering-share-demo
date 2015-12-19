@@ -1,0 +1,15 @@
+## 首页布局
+#extends("../layout/base/base.vm")
+    #block("body")
+    	#widget("/widget/banner/banner.vm")
+
+    	<div class="content">
+            #widget("widget/header/header.vm")
+    	</div>
+        #block("footer")
+            #widget("/widget/footer/footer.vm")
+        #end
+    #end
+
+    #require("./index.vm")
+#end

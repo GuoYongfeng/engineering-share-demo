@@ -1,0 +1,19 @@
+{
+  "name": "mycomponent",
+  "version": "0.0.1",
+  "authors": [
+    "guoyongfeng <guoyff@yonyou.com>"
+  ],
+  "description": "just for test",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}
