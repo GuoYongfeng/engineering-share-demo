@@ -1,0 +1,75 @@
+
+/* Stat boxes */
+.stat-boxes, .quick-actions, .quick-actions-horizontal, .stats-plain {
+    display: inline-block;
+    list-style: none outside none;
+    margin: 20px 0 10px;
+    text-align: center;
+}
+.stats-plain {
+	width: 100%;
+}
+.stat-boxes li, .quick-actions li, .quick-actions-horizontal li {
+    background-color: #F6F6F6;
+	background-image: -webkit-gradient(linear, 0 0%, 0 100%, from(#F9F9F9), to(#EDEDED));
+	background-image: -webkit-linear-gradient(top, #F9F9F9 0%, #EDEDED 100%);
+    background-image: -moz-linear-gradient(top, #F9F9F9 0%, #EDEDED 100%);
+    background-image: -ms-linear-gradient(top, #F9F9F9 0%, #EDEDED 100%);
+    background-image: -o-linear-gradient(top, #F9F9F9 0%, #EDEDED 100%);
+    background-image: linear-gradient(top, #F9F9F9 0%, #EDEDED 100%);
+    border: 1px solid #d5d5d5;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 0 0 #FFFFFF inset, 0 1px 0 rgba(255,255,255,0.4);
+    display: inline-block;
+    line-height: 18px;
+    margin: 0 10px 10px;
+    padding: 0 10px;
+}
+
+.stat-boxes li:hover, .quick-actions li:hover, .quick-actions-horizontal li:hover  {
+    background-color: #fcfcfc;
+	background-image: -webkit-gradient(linear, 0 0%, 0 100%, from(#FCFCFC), to(#F1F1F1));
+	background-image: -webkit-linear-gradient(top, #FCFCFC 0%, #F1F1F1 100%);
+    background-image: -moz-linear-gradient(top, #FCFCFC 0%, #F1F1F1 100%);
+    background-image: -ms-linear-gradient(top, #FCFCFC 0%, #F1F1F1 100%);
+    background-image: -o-linear-gradient(top, #FCFCFC 0%, #F1F1F1 100%);
+    background-image: linear-gradient(top, #FCFCFC 0%, #F1F1F1 100%);
+}
+
+.stat-boxes .left, .stat-boxes .right {
+	text-shadow: 0 1px 0 #ffffff;
+    float: left;
+}
+.stat-boxes .left {
+    border-right: 1px solid #DCDCDC;
+    box-shadow: 1px 0 0 0 #FFFFFF;
+    margin-right: 12px;
+    padding: 10px 14px 6px 4px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.stat-boxes .right {
+    font-size: 12px;
+    padding: 9px 10px 7px 0;
+    text-align: center;
+    width: 70px;
+    color: #666666;
+}
+.stat-boxes .left span, .stat-boxes .right strong {
+	display: block;
+}
+.stat-boxes .right strong {
+	font-size: 26px;
+	margin-bottom: 3px;
+	margin-top: 6px;
+}
+.stat-boxes .peity_bar_good, .stat-boxes .peity_line_good  {
+	color: #459D1C;
+}
+.stat-boxes .peity_bar_neutral, .stat-boxes .peity_line_neutral  {
+	color: #757575;
+}
+.stat-boxes .peity_bar_bad, .stat-boxes .peity_line_bad  {
+	color: #BA1E20;
+}

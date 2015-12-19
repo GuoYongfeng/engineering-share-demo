@@ -1,0 +1,194 @@
+html{
+  font-size: 100px;
+  -webkit-user-select: none;   /* 禁止选中文本（如无文本选中需求，此为必选项） */
+  user-select: none;
+  min-height: 100%;
+}
+
+/*适配360以上屏幕*/
+@media (min-width:360px) {
+    html { font-size:112px !important;}
+}
+/*适配400以上屏幕*/
+@media (min-width:400px) {
+    html { font-size:125px !important;}
+}
+/*适配480以上屏幕*/
+@media (min-width:480px) {
+    html { font-size:150px !important;}
+}
+/*适配540以上屏幕*/
+@media (min-width:540px) {
+    html { font-size:168px !important;}
+}
+/*适配640以上屏幕*/
+@media (min-width:640px) {
+    html { font-size:200px !important;}
+}
+/*适配720以上屏幕*/
+@media (min-width:720px) {
+    html { font-size:225px !important;}
+}
+/*适配768以上屏幕*/
+@media (min-width:768px) {
+    html { font-size:240px !important;}
+}
+/*适配800以上屏幕*/
+@media (min-width:800px) {
+    html { font-size:250px !important;}
+}
+/*适配1080以上屏幕*/
+@media (min-width:1080px) {
+    html { font-size:337px !important;}
+}
+body{
+  font-size: 12px;
+  font-family: "Helvetica Neue", Helvetica, STHeiTi, "Microsoft Yahei","微软雅黑", sans-serif;
+  -webkit-user-select: none;   /* 禁止选中文本（如无文本选中需求，此为必选项） */
+  user-select: none;
+  min-height: 100%;
+}
+/* icarsclub-buildtool */
+blockquote,
+body,
+button,
+code,
+dd,
+div,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+legend,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
+  margin: 0;
+  padding: 0;
+  background-size: 100% 100%;
+}
+body{
+  background-size: auto auto;
+}
+fieldset,
+img {
+  border: 0;
+}
+:focus {
+  outline: 0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+optgroup,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: 400;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: 400;
+}
+abbr,
+acronym {
+  border: 0;
+  font-variant: normal;
+}
+button,
+input,
+optgroup,
+option,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+}
+code,
+kbd,
+samp,
+tt {
+  font-size: 100%;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+caption,
+th {
+  text-align: left;
+}
+sub,
+sup {
+  font-size: 100%;
+  vertical-align: baseline;
+}
+:link,
+:visited,
+ins {
+  text-decoration: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: '';
+  content: none;
+}
+img{
+  width: 100%;
+  max-width: 100%;
+}
+
+.clearfix {
+  *zoom: 1;
+    _height:1%;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+.hide{
+  display: none!important;
+}
+a, img {
+    -webkit-touch-callout: none; /* 禁止长按链接与图片弹出菜单 */
+}
